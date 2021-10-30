@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: green;
+    color: #191A19;
+    border-radius: 10%;
 }
 body{
-    background-color: black;
+    background: url(/img/FONDO-NEGRO.jpg);
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
 }
@@ -23,7 +24,7 @@ body{
     padding: 0;
     width: 400%;
     height: 100%;
-    animation: cambio 20s infinite;
+    animation: cambio 25s infinite;
 }
 .slider li{
     width: 100%;
@@ -46,8 +47,9 @@ body{
 
 }
 .form-login{
-    width: 50%;
-    height: 50%;
+    background-color: #1E5128;
+    width: 45%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,8 +63,13 @@ body{
 }
 .form-login input{
     font-size: 1.5em;
+    background-color: #D8E9A8;
+    border: 0.1em solid #191A19;
 }
 .form-login button{
     padding: 0em 2em;
     font-size: 2em;
+    color: #191A19;
+    background-color: #D8E9A8;
+    border: 0.1em solid #191A19;
 }
